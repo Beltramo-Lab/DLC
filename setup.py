@@ -39,7 +39,6 @@ setuptools.setup(
         "statsmodels>=0.11,!=0.13.2",
         "tables>=3.7.0",
         #"tensorflow-gpu==1.15.0", # changed this from >=2.0 to be compatible with current version of bonsai (which requires tensorflow==1.15.0)
-        "tensorflow-gpu==2.3.0", # SEP2024 SZ changed this from 1.15.0 above to be compatible with current version of dlc-live installed with TF 2.3.0
         "tensorflow==2.3.0", # SEP 2024 SZ added this for current DLC-Live version installed with TF 2.3.0
         "tensorpack>=0.11",
         "tf_slim>=1.1.0",
